@@ -1,0 +1,22 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+}
+.container-content, .container-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-input p{
+    padding-right: 5px;
+}
+.container-input a {
+  text-decoration: none;
+}
+#explanation {
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 50%;
+}
+

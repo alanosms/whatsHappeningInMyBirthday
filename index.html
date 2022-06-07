@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's Happened in this day</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="container-input" style=" flex-direction: row;">
+      <p>Insira uma data para resgatar acontecimentos:</p>
+      <input type="date" id="dateinput" min="1995-06-16">
+      <button id="captureDate">Enviar</button>
+    </div>
+    <div class="container-content">
+      <p>Acontecimento do dia: </p>
+      <h1 id="title"></h1>
+      <img id="image" src="https://icon-library.com/images/loading-icon-animated-gif/loading-icon-animated-gif-3.jpg" height="350px" width="350px">
+      <p id="explanation"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
