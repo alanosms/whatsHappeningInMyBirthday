@@ -1,0 +1,62 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background: url(/src/imgs/background.png);
+  font-family: Jua;
+  overflow: hidden;
+}
+.title{
+  margin-top: 60px;
+}
+.title p{
+  color: white;
+  margin: 0px;
+  font-size: 36px;
+}
+.container {
+  text-align: center;
+}
+.date{
+  text-align: center;
+  margin-top: 10px;
+  width: 170px;
+}
+.containerResult{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.containerResult .result{
+  border-radius: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 760px;
+  height: 420px;
+  margin-right: 30px;
+}
+
+.containerResult .result img{
+  width: 720px;
+  height: 390px;
+}
+.container .explanation{
+  border-radius: 37px;
+  background-color: white;
+  overflow: auto;
+  width: 320px;
+  height: 420px;
+}
+.container .explanation h1{
+  font-size: 32px;
+  margin: 5px 0px 5px 0px;
+}
+.loading{
+  width: 150px;
+}
+button{
+  margin-left: 5px;
+  font-family: 'Jua';
+}
