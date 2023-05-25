@@ -2,6 +2,7 @@ body{
   width: 100vw;
   height: 100vh;
   background: url(/src/imgs/background.png);
+  background-size: cover;
   font-family: Jua;
   overflow: hidden;
 }
@@ -59,4 +60,46 @@ body{
 button{
   margin-left: 5px;
   font-family: 'Jua';
+}
+
+@media (max-width: 600px){
+  body{
+    overflow: auto;
+    padding-bottom: 30px;
+  }
+  .container{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .container .explanation {
+    width: 90%;
+    height: auto;
+  }
+  .title{
+    margin-top: 30px;
+  }
+  .title p{
+    font-size: 20px;
+  }
+  .date{
+    font-size: 16px;
+  }
+  button{
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .containerResult{
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerResult .result{
+    margin: 0px 0px 10px 0px;
+    width: 90%;
+    height: 243px;
+  }
+  .containerResult .result img{
+    width: 90%;
+    height: 90%;
+  }
 }
